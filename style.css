@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body * {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  background: url(./assets/mobile_background.jpg) no-repeat top center/cover;
+
+}
+
+#container {
+  margin: auto;
+  margin-top: 132px;
+  width: 100%;
+  /* border: solid 1px red; */
+}
+
+#profile {
+  width: 473px;
+  height: 273px;
+  margin: auto;
+  position: relative;
+  display: block;
+
+}
+
+#profile-rect {
+  height: 62%;
+  background-color: rgba(150, 150, 150);
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 1% 7% 10% 25%;
+  border-radius: 28px;
+  z-index: 1;
+}
+
+#profile-rect p {
+  margin: 23% 24% 30% 30%;
+  font-size: 24px;
+  color: white;
+}
+
+#profile img {
+  width: 180px;
+  margin: 46px 257px 47px 36px;
+  display: block;
+
+  position: relative;
+  z-index: 2;
+}
+
+#social-links {
+  display: block;
+
+  width: 100%;
+  margin: auto;
+  font-size: 130px;
+}
+
+#social-links a {
+  color: black;
+  display: block;
+  padding: 25px;
+  padding-left: 60%;
+  padding-right: 60%;
+  border-radius: 50%;
+  transition: background 0.3s;
+}
+
+#whatsapp {
+  margin-bottom: 30%;
+}
+
+#social-links a:hover {
+  background: grey;
+  padding: 25px;
+}
+
+#email-crate {
+  height: 25px;
+  width: 4px;
+  background-color: black;
+  display: inline-block;
+  vertical-align: middle;
+}
+#email {
+  color: white;
+  text-decoration: none;
+  display: inline-flex;
+  margin-left: 5px;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+@media only screen and (max-width: 520px) {
+
+}

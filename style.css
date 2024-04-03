@@ -113,6 +113,33 @@ body {
   }
   #profile-rect p {
     font-size: 40px;
-    padding-top: 108px;
+    padding-top: 150px;
+  }
+  #profile-rect  {
+    height: 75%;
+  }
+
+  #profile img {
+  width: 225px;
+  margin-left: 12%;
+  }
+  #social-links {
+    width: 20%;
+    margin: 0% 45%;
+    font-size: 100px;
+  }
+
+  #social-links a {
+    color: black;
+    border-radius: 50%;
+    display: flex;
+    padding: 20%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #social-links a:hover {
+    background-color: grey;
+    padding: 20%;
   }
 }

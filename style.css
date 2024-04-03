@@ -46,8 +46,8 @@ body {
   font-size: 24px;
   color: white;
   display: flex;
-  justify-content: center;
-  padding-top: 75px;
+  justify-content: end;
+  padding-top: 125px;
 }
 
 #profile img {
@@ -61,20 +61,19 @@ body {
 
 #social-links {
   display: block;
-
-  width: 100%;
-  margin: auto;
-  font-size: 600%;
+  
+  width: 30%;
+  margin: 0% 40%;
+  font-size: 100px;
 }
 
 #social-links a {
   color: black;
-  display: block;
-  padding: 25px;
-  padding-left: 40%;
-  padding-right: 60%;
   border-radius: 50%;
-  transition: background 0.3s;
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  justify-content: center;
 }
 
 #whatsapp {
@@ -82,8 +81,8 @@ body {
 }
 
 #social-links a:hover {
-  background: grey;
-  padding: 25px;
+  background-color: grey;
+  padding: 16px;
 }
 
 #email-crate {
@@ -106,10 +105,18 @@ body {
   height: 100%;
 }
 
-@media only screen and (min-width) {
+@media only screen and (min-width: 520px) {
 
-}
+  body {
+    background: url(./assets/dekstop_background.jpg) no-repeat top center/cover;
 
-@media only screen and (max-width: 520px) {
+  }
 
+  #profile {
+    width: 100%;
+    height: 273px;
+    margin: auto;
+    position: relative;
+    display: block;
+  }
 }
